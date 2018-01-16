@@ -1,0 +1,16 @@
+[package]
+name = "schani_thumbnailer"
+version = "0.1.0"
+authors = ["Christoph Wurst <christoph@winzerhof-wurst.at>"]
+
+[dependencies]
+dotenv = "0.10.1"
+fern = "*"
+futures = "^0.1"
+gotham = { git = "https://github.com/gotham-rs/gotham.git" }
+gotham_derive = { git = "https://github.com/gotham-rs/gotham.git" }
+hyper = "^0.11"
+log = "*"
+mime = "*"
+schani_store_client = { git = "https://github.com/schani-rs/schani_store_client.git" }
+tokio-core = "*"
